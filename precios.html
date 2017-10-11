@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700,900|Play+Web" rel="stylesheet">
+    <link rel="stylesheet"href="CSS/gamer.css">
+    <meta charset="utf-8">
+    <title>Gamer</title>
+  </head>
+  <body>
+    <header id = "header" class="header"> <!--Header-->
+      <figure class="logotipo_header"> <!--Logotipo-->
+        <img src="images/banner.png" width="200" alt="Icono Gamer"/>
+      </figure>
+      <nav class="menu"><!--Menú-->
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="index.html#games" >Juegos</a></li>
+          <li><a href="index.html#consolas" >Consolas</a></li>
+          <li><a href="index.html#libros">Libros</a></li>
+          <li><a href="index.html#gadgets">Gadgets</a></li>
+          <li><a href="precios.html">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="tabla">
+      <div class="contenedor">
+        <table>
+          <thead>
+            <tr>
+              <th>Suscripción</th>
+              <th>Precio</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Básica</td>
+              <td>10$ Mensuales/ 100$ anuales</td>
+              <td>Obten acceso a nuestros juegos afiliado y recibe un souvenir aleatorio mensual</td>
+            </tr>
+
+            <tr>
+              <td>Avanzada</td>
+              <td>29$ mensuales/ 230$ anuales</td>
+              <td>Obten acceso a nustros juegos y consolas afiliadas y recibe un souvenir pro mensual</td>
+            </tr>
+
+            <tr>
+              <td>Ultra</td>
+              <td>50$ mensuales/ 450$ anuales</td>
+              <td>Obten acceso a TODOS nuestros productos afiliadas y recibe un pack Ultra mensual</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer_precios">
+      <div class="contenedor">
+        <div class="contact">
+          <div class="tel"><a href="tel:+584147159493"><strong>Teléfono</strong> <span>+584147159493</span></a></div>
+          <a href="mailto:contacto@gamer.com"><strong>Email</strong> <span>contacto@gamer.com</span></a>
+        </div>
+
+        <div class="form">
+          <div class="col1">
+              <label for="name">Nombre</label>
+              <input type="text" required id="name" name="Nombre">
+              <label for="email">Email</label>
+              <input type="text" required id="email" name="Email">
+
+              <div class="sexo">
+                <label for="Hombre">
+                  <input type="radio" name="sexo" id="Hombre"> Hombre
+                </label>
+                <label for="Mujer">
+                  <input type="radio" name="sexo" id="Mujer"> Mujer
+                </label>
+              </div>
+
+              <div class="intereses">
+                <div class="coti-coments">
+                  <label for="cotizacion" class="cotizacion">
+                    <input type="checkbox" id="cotizacion"> Cotización
+                  </label>
+
+                  <label for="Comentarios" class="coments">
+                    <input type="checkbox" id="Comentarios"> Comentarios
+                  </label>
+                </div>
+
+                <div class="recla-otros">
+                  <label for="Reclamos" class="reclamos">
+                    <input type="checkbox" id="Reclamos"> Reclamos
+                  </label>
+
+                  <label for="Otros" class="otros">
+                    <input type="checkbox" id="Otros"> Otros
+                  </label>
+                </div>
+              </div>
+          </div>
+
+          <div class="col2">
+            <label for="asunto">Asunto</label>
+            <textarea name="asunto" id="asunto" rows="7" cols="30"></textarea>
+            <input type="submit" value="Enviar" class="boton" onmouseover="this.style.background='rgb(65, 65, 69)'"  onmouseout="this.style.background = `black`">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
